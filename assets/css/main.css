@@ -1,0 +1,12 @@
+h1, .menu ul li:last-child {
+  background-color: #ebb85d;
+  color: white; }
+
+li {
+  list-style: none; }
+
+.gray-li, .aside, .footer {
+  background-color: #3e3f40;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */

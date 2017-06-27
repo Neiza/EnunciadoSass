@@ -1,0 +1,28 @@
+@import "colors";
+@import "fonts";
+@import "resolutions";
+
+h1{
+  background-color: $primary-color;
+  color: $text-colorPrimary;
+}
+
+li{
+  list-style: none;
+}
+.menu ul li:last-child{
+  @extend h1;
+}
+
+.gray-li{
+  background-color: $secondary-color;
+  color: $text-colorPrimary;
+}
+
+.aside{
+  @extend .gray-li;
+}
+
+.footer{
+  @extend .gray-li;
+}
